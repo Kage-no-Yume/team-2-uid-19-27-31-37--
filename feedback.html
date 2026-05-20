@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>TECHNOVA | Feedback</title>
+
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar"
+        id="sidebar">
+
+        <h2>TECHNOVA</h2>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="#"
+            onclick="openProfile()">
+
+            Your Profile
+
+        </a>
+
+        <a href="#"
+            onclick="openRegisteredEvents()">
+
+            Registered Events
+
+        </a>
+
+        <a href="feedback.html">
+            Feedback
+        </a>
+
+        <a href="#"
+            onclick="logoutUser()">
+
+            Log Out
+
+        </a>
+
+    </div>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="left-nav">
+
+            <div class="menu-btn"
+                onclick="toggleSidebar()">
+
+                ☰
+
+            </div>
+
+            <h1>TECHNOVA</h1>
+
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="events.html">
+                Events
+            </a>
+
+            <span id="userMenu">
+
+                <span class="welcome-text"
+                    id="welcomeText">
+
+                </span>
+
+            </span>
+
+        </div>
+
+    </nav>
+
+    <!-- FEEDBACK -->
+
+    <section class="form-section">
+
+        <h2 class="title">
+            FEEDBACK
+        </h2>
+
+        <form id="feedbackForm">
+
+            <textarea
+                id="feedbackText"
+
+                placeholder=
+                "Enter feedback (minimum 20 characters)">
+            </textarea>
+
+            <button type="submit">
+                Submit Feedback
+            </button>
+
+        </form>
+
+        <p id="feedbackMessage"></p>
+
+    </section>
+
+    <!-- MODAL -->
+
+    <div class="modal"
+        id="modal">
+
+        <div class="modal-content"
+            id="modalContent">
+
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 TECHNOVA FEST
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>TECHNOVA | Events</title>
+
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar"
+        id="sidebar">
+
+        <h2>TECHNOVA</h2>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="#"
+            onclick="openProfile()">
+
+            Your Profile
+
+        </a>
+
+        <a href="#"
+            onclick="openRegisteredEvents()">
+
+            Registered Events
+
+        </a>
+
+        <a href="feedback.html">
+            Feedback
+        </a>
+
+        <a href="#"
+            onclick="logoutUser()">
+
+            Log Out
+
+        </a>
+
+    </div>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="left-nav">
+
+            <div class="menu-btn"
+                onclick="toggleSidebar()">
+
+                ☰
+
+            </div>
+
+            <h1>TECHNOVA</h1>
+
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="events.html">
+                Events
+            </a>
+
+            <span id="userMenu">
+
+                <span class="welcome-text"
+                    id="welcomeText">
+
+                </span>
+
+            </span>
+
+        </div>
+
+    </nav>
+
+    <!-- EVENTS -->
+
+    <section class="events-section">
+
+        <h2 class="title">
+            EVENTS
+        </h2>
+
+        <div class="event-container"
+            id="eventContainer">
+
+        </div>
+
+    </section>
+
+    <!-- MODAL -->
+
+    <div class="modal"
+        id="modal">
+
+        <div class="modal-content"
+            id="modalContent">
+
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 TECHNOVA FEST
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
