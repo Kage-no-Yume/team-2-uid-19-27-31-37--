@@ -175,7 +175,7 @@ TECHNOVA-2026/
 ├── package.json
 ├── package-lock.json
 │
-|── node_modules
+|── .gitignore
 |
 └── README.md
 ```
@@ -192,7 +192,7 @@ TECHNOVA-2026/
 | `main.js`           | Electron application entry point                                    |
 | `package.json`      | Node.js project configuration and dependencies                      |
 | `package-lock.json` | Locks dependency versions                                           |
-| `node_modules`      | Contains installed Node.js project dependencies                     |
+| `.gitignore`        | Prevents unnecessary files from being uploaded                      |
 | `README.md`         | Project documentation                                               |
 
 ---
@@ -566,10 +566,10 @@ It is intended primarily as an educational/project demonstration rather than a p
 
 Add your team members here:
 
-* **[Member 1]**
-* **[Member 2]**
-* **[Member 3]**
-* **[Member 4]**
+* **Kayab6 (https://github.com/Kayab6)**
+* **Kage-no-Yume (https://github.com/Kage-no-Yume)**
+* **kiruthikaa-sri (https://github.com/kiruthikaa-sri)**
+* **Protocol-Wizard (https://github.com/Protocol-Wizard)**
 
 ---
 
