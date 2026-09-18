@@ -4,6 +4,8 @@ A desktop-based **Technical Festival Event Registration System** built using **H
 
 TECHNOVA provides a simple interface for users to register for a technical festival, create an account, log in, view events, register for events, manage their profile, view registered events, leave events, and submit feedback.
 
+> 🎓 **Academic Project:** Developed as a team project for the First Semester Computational Problem Solving Lab Examination.
+
 ---
 
 ## 📌 Project Overview
@@ -22,19 +24,19 @@ The application is packaged as a desktop application using **Electron**.
 
 Users can create an account by providing:
 
-* Full Name
-* Email Address
-* Mobile Number
-* Password
+- Full Name
+- Email Address
+- Mobile Number
+- Password
 
 The application performs basic validation for the entered information.
 
 For example:
 
-* Name cannot be empty
-* Email must contain `@`
-* Mobile number must contain 10 digits
-* Password must contain at least 6 characters
+- Name cannot be empty
+- Email must contain `@`
+- Mobile number must contain 10 digits
+- Password must contain at least 6 characters
 
 The user information is stored using the browser's `localStorage`.
 
@@ -44,8 +46,8 @@ The user information is stored using the browser's `localStorage`.
 
 Registered users can log in using their:
 
-* Email
-* Password
+- Email
+- Password
 
 After successful login, the interface displays a personalized welcome message.
 
@@ -57,12 +59,12 @@ The login state is maintained using `localStorage`.
 
 The application currently contains four events:
 
-| Event      | Date    | Time     |
-| ---------- | ------- | -------- |
+| Event | Date | Time |
+|---|---|---|
 | Code Clash | 12 June | 10:00 AM |
-| Web Design | 12 June | 1:00 PM  |
-| AI Quiz    | 13 June | 11:00 AM |
-| Robo Race  | 14 June | 2:00 PM  |
+| Web Design | 12 June | 1:00 PM |
+| AI Quiz | 13 June | 11:00 AM |
+| Robo Race | 14 June | 2:00 PM |
 
 These events are dynamically generated using JavaScript.
 
@@ -87,9 +89,9 @@ Duplicate registrations are prevented.
 
 Users can open their profile and modify:
 
-* Name
-* Email
-* Phone number
+- Name
+- Email
+- Phone number
 
 The updated profile is stored locally.
 
@@ -107,7 +109,9 @@ They can also leave an event through the **Exit Event** option. The application 
 
 Users can submit feedback through a dedicated feedback page.
 
-## The application requires the feedback to contain at least **20 characters** before accepting it.
+The application requires the feedback to contain at least **20 characters** before accepting it.
+
+---
 
 ### 📅 Event Timetable
 
@@ -119,15 +123,15 @@ The home page contains an event timetable displaying the event, date, and time.
 
 The interface uses:
 
-* Dark background
-* Gold accent colors
-* Cinzel and Poppins fonts
-* Responsive layouts
-* Navigation bar
-* Sliding sidebar
-* Event cards
-* Modal windows
-* Forms and validation
+- Dark background
+- Gold accent colors
+- Cinzel and Poppins fonts
+- Responsive layouts
+- Navigation bar
+- Sliding sidebar
+- Event cards
+- Modal windows
+- Forms and validation
 
 The styling and responsive behavior are implemented in CSS.
 
@@ -137,25 +141,24 @@ The styling and responsive behavior are implemented in CSS.
 
 ### Frontend
 
-* **HTML5**
-* **CSS3**
-* **JavaScript**
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
 ### Desktop Application
 
-* **Electron.js**
-* **Node.js**
+- **Electron.js**
+- **Node.js**
 
 ### Data Storage
 
-* **Browser Local Storage**
+- **Browser Local Storage**
 
 ### Fonts
 
-* Google Fonts
-
-  * Cinzel
-  * Poppins
+- Google Fonts
+  - Cinzel
+  - Poppins
 
 ---
 
@@ -181,18 +184,18 @@ TECHNOVA-2026/
 
 ### File Description
 
-| File                | Purpose                                                             |
-| ------------------- | ------------------------------------------------------------------- |
-| `index.html`        | Main/home page containing login, registration, events and timetable |
-| `events.html`       | Dedicated events page                                               |
-| `feedback.html`     | Feedback submission page                                            |
-| `style.css`         | Application styling and responsive design                           |
-| `script.js`         | Main application logic                                              |
-| `main.js`           | Electron application entry point                                    |
-| `package.json`      | Node.js project configuration and dependencies                      |
-| `package-lock.json` | Locks dependency versions                                           |
-| `.gitignore`        | Specifies files and folders that Git should ignore                  |
-| `README.md`         | Project documentation                                               |
+| File | Purpose |
+|---|---|
+| `index.html` | Main/home page containing login, registration, events and timetable |
+| `events.html` | Dedicated events page |
+| `feedback.html` | Feedback submission page |
+| `style.css` | Application styling and responsive design |
+| `script.js` | Main application logic |
+| `main.js` | Electron application entry point |
+| `package.json` | Node.js project configuration and dependencies |
+| `package-lock.json` | Locks dependency versions |
+| `.gitignore` | Specifies files and folders that Git should ignore |
+| `README.md` | Project documentation |
 
 ---
 
@@ -229,8 +232,8 @@ index.html
 
 Make sure you have installed:
 
-* Node.js
-* npm
+- Node.js
+- npm
 
 You can check your installation with:
 
@@ -244,22 +247,22 @@ npm --version
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Kage-no-Yume/team-2-uid-19-27-31-37--.git
+git clone https://github.com/Kage-no-Yume/team-2-uid-19-27-31--.git
 ```
 
-Then:
+Then enter the project directory:
 
 ```bash
-cd team-2-uid-19-27-31-37--
+cd team-2-uid-19-27-31--
 ```
 
 ---
 
 ### 2. Install Dependencies
 
-Do **not** upload `node_modules` to GitHub.
+The `node_modules` folder is intentionally excluded from the repository using `.gitignore`.
 
-Instead, install the required dependencies using:
+Install the required dependencies using:
 
 ```bash
 npm install
@@ -277,7 +280,7 @@ If the project's `package.json` contains an appropriate start script, run:
 npm start
 ```
 
-Otherwise, the Electron application can be launched according to the Electron configuration in the project.
+Otherwise, launch the Electron application according to the project's Electron configuration.
 
 ---
 
@@ -291,25 +294,25 @@ It should be committed to GitHub.
 
 ## 🔒 About `package-lock.json`
 
-`package-lock.json` records the exact dependency versions used by the project.
+`package-lock.json` records the dependency versions used by the project.
 
-It should also be committed to GitHub because it helps ensure that other users install compatible dependency versions.
+It should also be committed to GitHub because it helps ensure that compatible dependency versions are installed.
 
 ---
 
-## 🚫 What About `node_modules`?
+## 🚫 About `node_modules`
 
-**Do not upload `node_modules` to GitHub.**
+The `node_modules` folder is **not included in this repository**.
 
-The folder can contain a very large number of dependency files and can make the repository unnecessarily large.
+It contains the installed Node.js dependencies and can become very large.
 
-Instead, create a `.gitignore` file containing:
+Instead, the project uses a `.gitignore` file containing:
 
 ```gitignore
 node_modules/
 ```
 
-Then anyone cloning the repository can recreate the folder using:
+Anyone cloning the repository can recreate the folder using:
 
 ```bash
 npm install
@@ -329,11 +332,11 @@ The application operates primarily on the client side using JavaScript and `loca
 
 This means there is no centralized server managing:
 
-* Users
-* Events
-* Registrations
-* Feedback
-* Authentication
+- Users
+- Events
+- Registrations
+- Feedback
+- Authentication
 
 ---
 
@@ -341,21 +344,11 @@ This means there is no centralized server managing:
 
 User information and registered events are stored using browser `localStorage`.
 
-For example, user information is stored under:
+The application uses keys such as:
 
 ```text
 studentData
-```
-
-and the login state under:
-
-```text
 login
-```
-
-Registered events are stored under:
-
-```text
 myEvents
 ```
 
@@ -397,7 +390,7 @@ Therefore, it does not provide server-side authentication or session management.
 
 ### 6. No Database
 
-There is no MySQL, PostgreSQL, MongoDB, or other database.
+There is no MySQL, PostgreSQL, MongoDB, SQLite, or other database used for centralized data management.
 
 A real event management platform would require persistent centralized storage.
 
@@ -413,7 +406,7 @@ Adding or modifying events requires modifying the source code rather than using 
 
 ### 8. Feedback Is Not Persisted
 
-The feedback form displays a success message and resets the form, but there is no backend/database mechanism shown for permanently storing submitted feedback.
+The feedback form displays a success message and resets the form, but there is no backend or database mechanism for permanently storing submitted feedback.
 
 ---
 
@@ -421,21 +414,21 @@ The feedback form displays a success message and resets the form, but there is n
 
 There is no administrative interface for organizers to:
 
-* Add events
-* Remove events
-* Edit event details
-* View participants
-* Manage users
-* Review feedback
-* Monitor registrations
+- Add events
+- Remove events
+- Edit event details
+- View participants
+- Manage users
+- Review feedback
+- Monitor registrations
 
 ---
 
-### 10. No Real-Time Event Capacity
+### 10. No Event Capacity Management
 
-The application does not appear to maintain a maximum participant capacity for each event.
+The application does not currently maintain participant limits or real-time registration capacity for events.
 
-Therefore, it cannot prevent an event from exceeding its actual capacity.
+Therefore, it cannot prevent an event from exceeding an actual participant capacity.
 
 ---
 
@@ -443,11 +436,11 @@ Therefore, it cannot prevent an event from exceeding its actual capacity.
 
 There is no payment functionality for:
 
-* Registration fees
-* Online payments
-* Payment verification
-* Receipts
-* Refunds
+- Registration fees
+- Online payments
+- Payment verification
+- Receipts
+- Refunds
 
 ---
 
@@ -463,18 +456,18 @@ Because information is stored locally, the user's registrations are not synchron
 
 ---
 
-### 14. Security Considerations
+### 14. Electron Security Considerations
 
-The Electron configuration currently enables:
+The current Electron configuration enables:
 
 ```javascript
-nodeIntegration: true
+nodeIntegration: true,
 contextIsolation: false
 ```
 
 These settings can introduce security risks in production Electron applications.
 
-A production version should follow Electron's security recommendations and use safer renderer/main-process communication.
+A production version should follow Electron's security recommendations and use safer communication between the Electron main process and renderer process.
 
 ---
 
@@ -482,23 +475,23 @@ A production version should follow Electron's security recommendations and use s
 
 The project could be developed into a complete event-management platform by adding:
 
-* 🗄️ MySQL/MongoDB/PostgreSQL database
-* 🌐 Backend API
-* 🔐 Secure authentication
-* 🔑 Password hashing
-* 👥 Multiple-user support
-* 👨‍💼 Administrator dashboard
-* 🏆 Dynamic event management
-* 👥 Participant management
-* 📊 Registration statistics
-* 📩 Email confirmation
-* 💳 Online payment
-* 🎟️ Digital event passes
-* 📱 Better mobile support
-* ☁️ Cloud synchronization
-* 🔔 Event notifications
-* 📅 Calendar integration
-* 📝 Persistent feedback management
+- 🗄️ MySQL/MongoDB/PostgreSQL database
+- 🌐 Backend API
+- 🔐 Secure authentication
+- 🔑 Password hashing
+- 👥 Multiple-user support
+- 👨‍💼 Administrator dashboard
+- 🏆 Dynamic event management
+- 👥 Participant management
+- 📊 Registration statistics
+- 📩 Email confirmation
+- 💳 Online payment
+- 🎟️ Digital event passes
+- 📱 Improved mobile support
+- ☁️ Cloud synchronization
+- 🔔 Event notifications
+- 📅 Calendar integration
+- 📝 Persistent feedback management
 
 ---
 
@@ -506,18 +499,18 @@ The project could be developed into a complete event-management platform by addi
 
 This project provides practical experience with:
 
-* HTML page structure
-* CSS styling
-* Responsive web design
-* JavaScript DOM manipulation
-* JavaScript functions
-* Arrays and objects
-* Form validation
-* Event handling
-* `localStorage`
-* Client-side application logic
-* Electron desktop application development
-* Node.js/npm project structure
+- HTML page structure
+- CSS styling
+- Responsive web design
+- JavaScript DOM manipulation
+- JavaScript functions
+- Arrays and objects
+- Form validation
+- Event handling
+- `localStorage`
+- Client-side application logic
+- Electron desktop application development
+- Node.js/npm project structure
 
 ---
 
@@ -553,22 +546,20 @@ TECHNOVA 2026
 
 ## 📌 Project Status
 
-**Status: Completed**
+**Status: Completed – Academic Project**
 
-This project represents a functional prototype of a technical festival event-registration platform.
+TECHNOVA 2026 is a functional prototype developed as a team project for a first-semester academic evaluation.
 
-It is intended primarily as an educational/project demonstration rather than a production-ready event management system.
+The project is not intended to be a production-ready event management system.
 
 ---
 
 ## 👥 Contributors
 
-Add your team members here:
-
-* **Kayab6 (https://github.com/Kayab6)**
-* **Kage-no-Yume (https://github.com/Kage-no-Yume)**
-* **kiruthikaa-sri (https://github.com/kiruthikaa-sri)**
-* **Protocol-Wizard (https://github.com/Protocol-Wizard)**
+- **[Kayab6](https://github.com/Kayab6)**
+- **[Kage-no-Yume](https://github.com/Kage-no-Yume)**
+- **[kiruthikaa-sri](https://github.com/kiruthikaa-sri)**
+- **[Protocol-Wizard](https://github.com/Protocol-Wizard)**
 
 ---
 
