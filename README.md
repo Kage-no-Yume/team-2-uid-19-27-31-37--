@@ -168,15 +168,14 @@ TECHNOVA-2026/
 ├── events.html
 ├── feedback.html
 │
-├── style.css
-├── script.js
 ├── main.js
+├── script.js
+├── style.css
 │
 ├── package.json
 ├── package-lock.json
 │
-|── .gitignore
-|
+├── .gitignore
 └── README.md
 ```
 
