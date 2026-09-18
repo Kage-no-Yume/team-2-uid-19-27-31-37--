@@ -191,7 +191,7 @@ TECHNOVA-2026/
 | `main.js`           | Electron application entry point                                    |
 | `package.json`      | Node.js project configuration and dependencies                      |
 | `package-lock.json` | Locks dependency versions                                           |
-| `.gitignore`        | Prevents unnecessary files from being uploaded                      |
+| `.gitignore`        | Specifies files and folders that Git should ignore                  |
 | `README.md`         | Project documentation                                               |
 
 ---
