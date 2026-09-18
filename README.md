@@ -175,8 +175,8 @@ TECHNOVA-2026/
 ├── package.json
 ├── package-lock.json
 │
-├── .gitignore
-│
+|── node_modules
+|
 └── README.md
 ```
 
@@ -192,7 +192,7 @@ TECHNOVA-2026/
 | `main.js`           | Electron application entry point                                    |
 | `package.json`      | Node.js project configuration and dependencies                      |
 | `package-lock.json` | Locks dependency versions                                           |
-| `.gitignore`        | Prevents unnecessary files from being uploaded                      |
+| `node_modules`      | Contains installed Node.js project dependencies                     |
 | `README.md`         | Project documentation                                               |
 
 ---
@@ -245,13 +245,13 @@ npm --version
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/technova-2026.git
+git clone https://github.com/Kage-no-Yume/team-2-uid-19-27-31-37--.git
 ```
 
 Then:
 
 ```bash
-cd technova-2026
+cd team-2-uid-19-27-31-37--
 ```
 
 ---
